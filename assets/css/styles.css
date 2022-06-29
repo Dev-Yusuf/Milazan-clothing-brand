@@ -193,7 +193,7 @@ body.dark-theme{
 
 }
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 1280px) {
   .nav__menu{
     position: fixed;
     bottom: 1.5rem;
@@ -718,7 +718,7 @@ body.dark-theme{
     transition: .3s;
   }
   .nav__link i{
-    display: none;
+    display: flex;
   }
 
   .nav__link:hover{
